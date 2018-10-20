@@ -1,0 +1,65 @@
+/*Author: Alejandro Hernandez Alamina*/ 
+html , body {
+    height: 100%; 
+    font-family: 'Baloo Bhaina', cursive;
+}
+.home-container{
+    background: #f0db66; 
+    height: 100%;
+} 
+.home-row{
+    padding-top: calc(20% - 8em);
+    text-align: center;
+}
+.home-title{
+    font-size: 15em;
+    line-height: 0.5;
+    margin-top: 20%;
+    color: #264653; 
+}
+.home-subtitle{
+    font-size: 2em; 
+    color: #e76f51;
+} 
+.home-row .bordertl{
+    border-right: 5px solid;
+    border-right-color: #28666E;
+}
+.ducky-art{
+    font-size: 7em; 
+} 
+.about-container{
+    margin-top: 5%;
+} 
+.about-description{
+    font-family: 'Roboto Mono', monospace;
+} 
+.puddle-grass{
+    background: #447604;
+    height: auto;
+    padding: 35px 0 0 35px; 
+    margin-bottom: 5em;
+} 
+.puddle-grass .p-container{
+    position: absolute;
+    width: 100%;
+    height: 200px;
+} 
+.p-container .p_1, .p_2, .p_3 {
+    position: absolute;
+    letter-spacing: 6px;
+    top: -13%;
+    color: #264103;
+} 
+.p_1{ left: 2%;}
+.p_2{ left: 34%;}
+.p_3{ left: 68%;}
+.puddle-shadow{
+    background: #47624f; 
+    height: 200px; 
+    padding: 10px 0 0 10px;
+} 
+.puddle-water{ 
+    height: 190px;
+    background: #8AE9C1;
+} 
