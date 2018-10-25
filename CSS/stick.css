@@ -1,4 +1,6 @@
-/*Author: Alejandro Hernandez Alamina*/ 
+/*
+    Author: Alejandro Hernandez Alamina
+*/ 
 html , body {
     height: 100%; 
     font-family: 'Baloo Bhaina', cursive;
@@ -26,16 +28,21 @@ html , body {
     border-right-color: #28666E;
 }
 .ducky-art{
-    font-size: 7em; 
+    font-size: 7em;  
+    font-family: 'M PLUS Rounded 1c', sans-serif; 
+    color: #264653;
 } 
 .about-container{
     margin-top: 5%;
+    margin-bottom: 5%;
+    color: #28666E;
 } 
 .about-description{
-    font-family: 'Roboto Mono', monospace;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    color: #28666E;
 } 
 .puddle-grass{
-    background: #447604;
+    background: #518168;
     height: auto;
     padding: 35px 0 0 35px; 
     margin-bottom: 5em;
@@ -45,15 +52,15 @@ html , body {
     width: 100%;
     height: 200px;
 } 
-.p-container .p_1, .p_2, .p_3 {
+.p-container .p_1, .p_2, .p_3, .p_4 {
     position: absolute;
     letter-spacing: 6px;
     top: -13%;
-    color: #264103;
+    color: #1F5F32;
 } 
 .p_1{ left: 2%;}
 .p_2{ left: 34%;}
-.p_3{ left: 68%;}
+.p_3{ left: 68%;} 
 .puddle-shadow{
     background: #47624f; 
     height: 200px; 
@@ -61,5 +68,22 @@ html , body {
 } 
 .puddle-water{ 
     height: 190px;
-    background: #8AE9C1;
+    background: #2FC6F1;
 } 
+.puddle-ducks{
+    font-size: 1em; 
+    font-weight: 700; 
+    color: #f0db66;
+} 
+
+.team-card{
+
+}
+.team-icontainer{
+
+}
+.team-img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
